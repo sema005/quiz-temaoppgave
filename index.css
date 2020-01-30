@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-size: 62,5%;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+}
+
+#map {
+    height: 90vh;
+    width: 75vw;
+}
+
+#header {
+    height: 10vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#header h1 {
+    margin: 0;
+}
+
+#sidebar {
+    padding: 5px;
+    float: right;
+    display: grid;
+    grid-auto-rows: 1fr;
+    justify-content: center;
+    align-content: center;
+}
+
+#container {
+    height: 300px;
+}
+
+
+#oppgave div {
+    height: 300px;
+    display: grid;
+    grid-auto-rows: 50px 250px;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+}
+
+#oppgave h1 {
+    font-size: 20px;
+}
+
+#oppgave div img {
+    height: 100%;
+    width: 70%;
+}
+
